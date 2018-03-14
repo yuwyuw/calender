@@ -1,0 +1,17 @@
+@import 'variables';
+@mixin clearfix () {
+  &:after {
+    content: '.';
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}
+@mixin absolute-center () {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}

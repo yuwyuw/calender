@@ -1,0 +1,17 @@
+@import 'node_modules/reset-css/_reset';
+@import '_variables';
+@import '_mixins';
+@import '_class';
+
+/* 通用 */
+html, body {
+  line-height: 1;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei', '微软雅黑', arial, sans-serif;
+  color: $color-base;
+}
+h1, h2, h3, h4, h5, h6, strong, th {font-style: normal;}
+a, button, input, textarea {outline: none;}
+a {text-decoration: none;}
+textarea {overflow-y: auto;}
+a {color: #fff}

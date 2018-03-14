@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "scripts": {
+        "start": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "clear": "rm -rf public/statics"
+    },
+    "devDependencies": {
+        "autoprefixer": "^8.1.0",
+        "babel-cli": "^6.26.0",
+        "babel-polyfill": "^6.23.0",
+        "babel-preset-env": "^1.6.1",
+        "cross-env": "^5.1",
+        "jquery": "^3.2",
+        "laravel-mix": "^1.0",
+        "postcss-cli": "^5.0.0",
+        "reset-css": "^2.2.0"
+    }
+}

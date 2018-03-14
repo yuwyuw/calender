@@ -1,0 +1,400 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 文字 */
+/* 文字颜色 */
+/* 文字 */
+/* 文字颜色 */
+/* 文字 */
+/* 文字颜色 */
+/* 文字 */
+/* 文字颜色 */
+/* 清除浮动 */
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.cb {
+  clear: both;
+}
+
+.cl {
+  clear: left;
+}
+
+.cr {
+  clear: right;
+}
+
+/* 鼠标类型 */
+.cp {
+  cursor: pointer;
+}
+
+.cd {
+  cursor: default;
+}
+
+.cna {
+  cursor: not-allowed;
+}
+
+/* 单行省略显示文字 禁止换行 */
+.single-line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 英文换行 */
+.word-b {
+  word-wrap: break-word;
+}
+
+/* 隐藏 & 显示 */
+.ofh {
+  overflow: hidden;
+}
+
+.ofv {
+  overflow: visible;
+}
+
+.ofa {
+  overflow: auto;
+}
+
+/* 定位 */
+.dis-b {
+  display: block;
+}
+
+.dis-i {
+  display: inline;
+}
+
+.dis-ib {
+  display: inline-block;
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-b-im {
+  display: block !important;
+}
+
+.dis-ib-im {
+  display: inline-block !important;
+}
+
+.dis-none-im {
+  display: none !important;
+}
+
+.zoom {
+  zoom: 1;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.abs-right {
+  position: absolute;
+  right: 0;
+}
+
+.abs-middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.abs-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.vt {
+  vertical-align: top;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+.vb {
+  vertical-align: bottom;
+}
+
+.vs {
+  vertical-align: super;
+}
+
+.vsb {
+  vertical-align: sub;
+}
+
+.vi {
+  vertical-align: inherit;
+}
+
+.vtb {
+  vertical-align: text-bottom;
+}
+
+.vbase {
+  vertical-align: baseline;
+}
+
+.vwbase {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.z5 {
+  z-index: 5;
+}
+
+/* 定位 */
+.dis-b {
+  display: block;
+}
+
+.dis-i {
+  display: inline;
+}
+
+.dis-ib {
+  display: inline-block;
+}
+
+.dis-none {
+  display: none;
+}
+
+.dis-b-im {
+  display: block !important;
+}
+
+.dis-ib-im {
+  display: inline-block !important;
+}
+
+.dis-none-im {
+  display: none !important;
+}
+
+.zoom {
+  zoom: 1;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.pr {
+  position: relative;
+}
+
+.pa {
+  position: absolute;
+}
+
+.abs-right {
+  position: absolute;
+  right: 0;
+}
+
+.abs-middle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+
+.abs-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.tl {
+  text-align: left;
+}
+
+.tc {
+  text-align: center;
+}
+
+.tr {
+  text-align: right;
+}
+
+.vt {
+  vertical-align: top;
+}
+
+.vm {
+  vertical-align: middle;
+}
+
+.vb {
+  vertical-align: bottom;
+}
+
+.vs {
+  vertical-align: super;
+}
+
+.vsb {
+  vertical-align: sub;
+}
+
+.vi {
+  vertical-align: inherit;
+}
+
+.vtb {
+  vertical-align: text-bottom;
+}
+
+.vbase {
+  vertical-align: baseline;
+}
+
+.vwbase {
+  vertical-align: -webkit-baseline-middle;
+}
+
+.z5 {
+  z-index: 5;
+}
+
+/* 通用 */
+html, body {
+  line-height: 1;
+  font-size: 16px;
+  font-family: 'Microsoft YaHei', '\5FAE\8F6F\96C5\9ED1', arial, sans-serif;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6, strong, th {
+  font-style: normal;
+}
+
+a, button, input, textarea {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  overflow-y: auto;
+}
+
+a {
+  color: #fff;
+}

@@ -1,0 +1,107 @@
+@import 'variables';
+@import 'mixins';
+
+/* 清除浮动 */
+.clearfix {
+  @include clearfix();
+}
+.cb {clear: both;}
+.cl {clear: left;}
+.cr {clear: right;}
+
+/* 鼠标类型 */
+.cp{cursor: pointer;}
+.cd{cursor: default;}
+.cna{cursor: not-allowed;}
+
+/* 单行省略显示文字 禁止换行 */
+.single-line{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+/* 英文换行 */
+.word-b{word-wrap:break-word; }
+
+/* 隐藏 & 显示 */
+.ofh {overflow: hidden;}
+.ofv {overflow: visible;}
+.ofa {overflow: auto;}
+
+/* 定位 */
+.dis-b {display: block;}
+.dis-i {display: inline;}
+.dis-ib {display: inline-block;}
+.dis-none {display: none;}
+.dis-b-im {display: block !important;}
+.dis-ib-im {display: inline-block !important;}
+.dis-none-im {display: none !important;}
+.zoom {zoom: 1;}
+.hidden {visibility: hidden;}
+.pr {position: relative;}
+.pa {position: absolute;}
+.abs-right {position: absolute; right: 0;}
+.abs-middle {position: absolute; top: 0; bottom: 0; margin: auto 0;}
+.abs-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.fl {float: left;}
+.fr {float: right;}
+.tl {text-align: left;}
+.tc {text-align: center;}
+.tr {text-align: right;}
+.vt {vertical-align: top;}
+.vm {vertical-align: middle;}
+.vb {vertical-align: bottom;}
+.vs {vertical-align: super;}
+.vsb{vertical-align: sub;}
+.vi {vertical-align: inherit;}
+.vtb {vertical-align: text-bottom;}
+.vbase {vertical-align: baseline;}
+.vwbase {vertical-align: -webkit-baseline-middle;}
+.z5 {z-index: 5}
+
+/* 定位 */
+.dis-b {display: block;}
+.dis-i {display: inline;}
+.dis-ib {display: inline-block;}
+.dis-none {display: none;}
+.dis-b-im {display: block !important;}
+.dis-ib-im {display: inline-block !important;}
+.dis-none-im {display: none !important;}
+.zoom {zoom: 1;}
+.hidden {visibility: hidden;}
+.pr {position: relative;}
+.pa {position: absolute;}
+.abs-right {position: absolute; right: 0;}
+.abs-middle {position: absolute; top: 0; bottom: 0; margin: auto 0;}
+.abs-center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.fl {float: left;}
+.fr {float: right;}
+.tl {text-align: left;}
+.tc {text-align: center;}
+.tr {text-align: right;}
+.vt {vertical-align: top;}
+.vm {vertical-align: middle;}
+.vb {vertical-align: bottom;}
+.vs {vertical-align: super;}
+.vsb{vertical-align: sub;}
+.vi {vertical-align: inherit;}
+.vtb {vertical-align: text-bottom;}
+.vbase {vertical-align: baseline;}
+.vwbase {vertical-align: -webkit-baseline-middle;}
+.z5 {z-index: 5}
