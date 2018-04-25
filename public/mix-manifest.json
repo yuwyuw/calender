@@ -1,4 +1,5 @@
 {
     "/statics/js/head.js": "/statics/js/head.js",
-    "/statics/css/base.css": "/statics/css/base.css"
+    "/statics/css/base.css": "/statics/css/base.css",
+    "/statics/css/pages/college.css": "/statics/css/pages/college.css"
 }
