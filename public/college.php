@@ -23,6 +23,11 @@
             ], [
                 'icon' => 'tool',
                 'title' => '新工具',
+                'class' => 'btnone'
+            ], [
+                'icon' => 'expect',
+                'title' => '敬请期待',
+                'class' => 'btnone'
             ]
         ];
     ?>

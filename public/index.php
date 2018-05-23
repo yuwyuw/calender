@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <?php include 'views/head.php'; ?>
-     <title></title>
+     <title>12312</title>
 </head>
 <body>
 </body>

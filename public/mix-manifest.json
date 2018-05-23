@@ -1,5 +1,10 @@
 {
     "/statics/js/head.js": "/statics/js/head.js",
     "/statics/css/base.css": "/statics/css/base.css",
-    "/statics/css/pages/college.css": "/statics/css/pages/college.css"
+    "/statics/css/pages/calender.css": "/statics/css/pages/calender.css",
+    "/statics/css/pages/college.css": "/statics/css/pages/college.css",
+    "/statics/css/pages/sys_plan.css": "/statics/css/pages/sys_plan.css",
+    "/statics/js/pages/sys_plan.js": "/statics/js/pages/sys_plan.js",
+    "/statics/js/pages/calender.js": "/statics/js/pages/calender.js",
+    "/statics/js/pages/calender-events.js": "/statics/js/pages/calender-events.js"
 }

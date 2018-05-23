@@ -21,4 +21,5 @@ jsFiles.forEach((item, key) => {
 })
 
 mix.copy('resources/images', 'public/statics/images')
+mix.copy('resources/libs', 'public/statics/libs')
 
