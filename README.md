@@ -14,5 +14,5 @@
  | -----           | -----                          | ----- |
  | minTdHeight     | 设置日历中日期的最小高度           | '60'   |
  | swithBtn        | 是否显示日历头部中的左右切换按钮    |  true
- | eventListData   | 设置日程数据                     |[{br>'title':'标题','date': '2018-06-07','url': 'https://baidu.com', 'isNewWindow': false}] |
+ | eventListData   | 设置日程数据                     |[<br>{<br>'title':'标题',<br>'date': '2018-06-07',<br>'url': 'https://baidu.com',<br> 'isNewWindow': false<br>}<br>] |
 
